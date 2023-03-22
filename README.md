@@ -1,21 +1,5 @@
-# bash_sistema_operativo
-# Semaforos que es en sistemas
+# Este programa tiene como funcionalidad almacenar el número máximo de clientes que pueden estar en la barbería y el número de clientes que han sido atendidos tambien un semaforo  definiendo asi  la silla del barbero y  para las sillas de espera, con varia funciones las cuales son: una funcion para el tiempo que tarda el barbero en recortar o afeitar a un cliente, otro para representar al cliente es decir si el barbero esta durmiendo, despertarlo de lo contrario, si hay sillas disponibles, sentarse; de lo contrario, irse, otra funcion para que  el barbero cuando hay clientes en espera, afeitar al siguiente cliente; de lo contrario, dormir y un bucle white que cree y ejecute hilos para los clientes y el barbero esperando a que todos los hilos terminen.
 
-# Un semáforo es una herramienta fundamental en los sistemas operativos para la gestión de procesos y la 
-# sincronización de actividades. En esencia, un semáforo es una variable compartida entre procesos o hilos que #permite controlar el acceso a un recurso o sección crítica en un sistema concurrente.
 
-# El semáforo se inicializa con un valor entero positivo y se utiliza para llevar un registro del número de #procesos que pueden acceder simultáneamente a un recurso compartido. Cuando un proceso desea acceder al recurso, #decrementa el valor del semáforo en uno. 
-
-# En qué consisten los semáforos binarios y enteros 
-
-# Los semáforos binarios y enteros son dos tipos de semáforos utilizados en la programación de sistemas operativos para la gestión de procesos y la sincronización de actividades.
-
-# Un semáforo binario es un semáforo con dos posibles valores: 0 y 1. Este tipo de semáforo se utiliza comúnmente para la exclusión mutua, lo que significa que solo un proceso a la vez puede acceder al recurso compartido. Cuando el semáforo está en 1, significa que el recurso está disponible y un proceso puede acceder a él. Cuando el semáforo está en 0, significa que el recurso está ocupado y otro proceso debe esperar a que el semáforo cambie a 1 antes de intentar acceder al recurso.
-
-# Relacion entre los semáforos y la sincronización 
-
-# La relación entre los semáforos y la sincronización es muy estrecha. Los semáforos son una herramienta fundamental en la programación de sistemas operativos para la sincronización de procesos y la gestión de recursos compartidos.
-
-# La sincronización se refiere a la coordinación de las actividades de varios procesos en un sistema concurrente, de tal manera que los procesos trabajen juntos de manera ordenada y cooperativa. La sincronización puede ser necesaria cuando varios procesos desean acceder a los mismos recursos compartidos al mismo tiempo.
-
-# Los semáforos permiten a los procesos sincronizar sus actividades al coordinar el acceso a los recursos compartidos. Cuando un proceso necesita acceder a un recurso compartido, debe primero obtener el control del semáforo asociado a ese recurso. Si el semáforo está en un estado que indica que el recurso no está disponible, el proceso debe esperar hasta que el semáforo cambie de estado.
+# Link del video
+# https://miucateciedu-my.sharepoint.com/:v:/g/personal/20200692_miucateci_edu_do/ETVClO4XnC9IkPZkxaWeIWwBBqjSw3_ofayIwyHyg9maHg?e=o7wXZV
